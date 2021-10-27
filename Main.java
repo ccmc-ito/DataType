@@ -19,6 +19,10 @@ public class Main {
         System.out.print("circumference: ");
         System.out.println(width + width + height + height);
 
+        // 面積の計算・表示
+        System.out.print("area: ");
+        System.out.println(width * height);
+
         // 入力の終了
         sc.close();
     }
